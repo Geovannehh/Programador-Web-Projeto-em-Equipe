@@ -42,4 +42,4 @@ setInterval(() =>{
     slides.forEach((slide, indx) => {
         slide.style.transform = `translateX(${100 * (indx - slideAtual)}%)`;
     });
-}, 5000)
+}, 5000);
